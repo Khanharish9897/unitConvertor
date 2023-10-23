@@ -23,10 +23,11 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Harish khan");
         convert.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClik(View view) {
                 int value = Integer.parseInt(getAmount.getText().toString());
                 int toPrint = value * 83;
                 rupees.setText("₹"+toPrint);
+                This is line containing error.
                 Toast.makeText(MainActivity.this, "₹"+toPrint, Toast.LENGTH_SHORT).show();
             }
         });
