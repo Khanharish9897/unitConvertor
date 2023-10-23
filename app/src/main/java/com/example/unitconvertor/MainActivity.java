@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         getAmount = findViewById(R.id.getAmount);
         convert = findViewById(R.id.convert);
         rupees = findViewById(R.id.rupees);
-
+        System.out.println("Harish khan");
         convert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
